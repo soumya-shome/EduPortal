@@ -1,0 +1,134 @@
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myAHome">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="{% url 'index' %}">Centre</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myAHome"> 
+				<ul class="nav navbar-nav">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="#">Attendance Log</a></li>
+					<li><a href="{% url 'register' %}">Register</a></li>
+					<li><a href="Information.php">Information</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Check Attendance</a></li>
+				</ul>				
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					
+					<li>
+					<form class="form-inline" style="padding-top: 8px">
+					<div class="form-group">
+						<input type="search" name="search" id="Search" placeholder="Search" class="form-control col-">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+					</form>
+					</li>
+					<li><a href="#" data-target="#mymodal2" data-toggle="modal"><span class="glyphicon glyphicon-user" ></span>&nbsp;Sign Up</a></li>
+					<li><a href="#" data-target="#mymodal" data-toggle="modal"><span class="glyphicon glyphicon-log-in" ></span>&nbsp;Log In</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="mymodal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h2 class="modal-title text-center w-100" style="font-weight: 600;">Log In</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 20px; top: 15px; font-size: 24px; color: #aaa;">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="text-center mb-4">
+						<h4 style="font-weight: 500;">Welcome!</h4>
+					</div>
+					<form id="loginForm">
+						{% csrf_token %}
+						<div class="form-group">
+							<label for="username">Username:</label>
+							<input type="text" class="form-control" id="username" placeholder="Enter username" required>
+						</div>
+						<div class="form-group">
+							<label for="password">Password:</label>
+							<input type="password" class="form-control" id="password" placeholder="Enter password" required>
+						</div>
+						<div class="form-group">
+							<input type="checkbox" onChange="showpass(1)"> Show Password
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">Login</button>
+					</form>
+					<!--<form id="loginForm" method="post" name="login">
+						{% csrf_token %}
+						<div class="form-group">
+							<label for="id" class="sr-only">Student ID</label>
+							<input type="text" class="form-control" id="id" name="t1" placeholder="Student ID" required>
+						</div>
+						<div class="form-group">
+							<label for="pwd" class="sr-only">Password</label>
+							<input type="password" class="form-control" id="pwd" name="p1" placeholder="Password" required>
+							<small class="form-text text-muted">
+								<input type="checkbox" onChange="showpass(1)"> Show Password
+							</small>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block" name="b1" style="font-weight: 500;">Log In</button>
+					</form> -->
+
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button class="btn btn-outline-secondary" type="button" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="mymodal2" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header border-0">
+					<h2 class="modal-title text-center w-100" style="font-weight: 600;">Sign Up</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; right: 20px; top: 15px; font-size: 24px; color: #aaa;">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="text-center mb-4">
+						<h4 style="font-weight: 500;">Enter your details below</h4>
+					</div>
+					<form name="f1" method="post" action="SignUp.php">
+						<div class="form-group">
+							<label for="sId">Student ID</label>
+							<input type="text" class="form-control" id="sId" placeholder="Student ID" name="t1" required>
+						</div>
+						<div class="form-group">
+							<label for="pwd">Password</label>
+							<input type="password" class="form-control" id="pwd" name="t2" placeholder="Password" required>
+							<small class="form-text text-muted">
+								<input type="checkbox" onChange="showpass(2)"> Show Password
+							</small>
+						</div>
+						<div class="form-group">
+							<label for="pwd2">Confirm Password</label>
+							<input type="password" class="form-control" id="pwd2" name="t3" placeholder="Confirm Password" required>
+							<small class="form-text text-muted">
+								<input type="checkbox" onChange="showpass(3)"> Show Password
+							</small>
+						</div>
+						<div class="form-group">
+							<button type="reset" class="btn btn-secondary btn-block">Reset</button>
+							<button type="submit" class="btn btn-primary btn-block" name="b1" style="font-weight: 500;">Sign Up</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button class="btn btn-outline-secondary" type="button" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>

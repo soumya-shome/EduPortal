@@ -1,0 +1,168 @@
+<!-- <?php
+session_start();
+if(isset($_SESSION['id'])){
+if($_SESSION['id']=='ADMIN'){
+header("Refresh:0,URL=adminHome.php");
+}else{
+header("Refresh:0,URL=stuHome.php");
+}
+}
+?> -->
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% load static %}
+</head>
+	
+<script>
+	function showpass(a){
+		if(a==1){
+			x=document.login.p1
+		}else if(a==2){
+			x=document.f1.t2
+		}else if(a==3){
+			x=document.f1.t3
+		}
+		if(x.type==="password"){
+			x.type="text"	
+		}
+		else{
+			x.type="password"
+		}
+	}
+
+	// Function to get the CSRF token from the cookie
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+const csrftoken = getCookie('csrftoken');
+
+// Handle form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const loginForm = document.getElementById('loginForm');
+    console.log(loginForm);
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            console.log(username);
+            console.log(password);
+
+            // Clear previous message
+            const loginMessage = document.getElementById('loginMessage');
+            if (loginMessage) {
+                loginMessage.style.display = 'none';
+            }
+
+            fetch('/login-validation/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': csrftoken // Add CSRF token for Django
+                },
+                body: JSON.stringify({ username, password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+				console.log("<- Data");
+				console.log(data.message);
+				console.log("Data ->");
+				if (data && data.message == "Login successful") {
+					alert("Login Successful !!!");
+					window.location.href = "/api-data/";
+				} else {
+					alert("Login Failed !!!");
+				}
+				
+            })
+            
+        });
+    }
+});
+
+	</script>
+<body>
+	{% include 'navbar.html' %}
+
+	<div class="row container-fluid" >
+		<div class="col-md-8">
+			<h1 class="page-header">Company Name</h1>
+			<h1 class=" text-danger">Bootstrap</h1>
+			<p class="text-justify text-capitalize">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library. 
+			Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+			Build responsive, mobile-first projects on the web with the world’s most popular front-end component library. 
+			Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. 
+			</p>
+		</div>
+		<div class="col-md-4">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">Gallery</div>
+					</div>
+					<div class="panel-body">
+						<div id="myslide" class="carousel slide" data-ride="carousel">
+							<ul class="carousel-indicators">
+								<li class="active" data-target="#myslide" data-slide-to="0"></li>
+								<li  data-target="#myslide" data-slide-to="1"></li>
+								<li  data-target="#myslide" data-slide-to="2"></li>
+								<li  data-target="#myslide" data-slide-to="3"></li>
+							</ul>
+							<div class="carousel-inner" >
+								<div class="item active">
+									<img src="{% static 'images/img1.jpg' %}" class="img-responsive">
+								</div>
+								<div class="item ">
+									<img src="{% static 'images/img2.jpg' %}" class="img-responsive">
+								</div>
+								<div class="item ">
+									<img src="{% static 'images/img3.jpg' %}" class="img-responsive">
+								</div>
+								<div class="item ">
+									<img src="{% static 'images/img4.jpg' %}" class="img-responsive">
+								</div>
+							</div>
+			<!-- Left and right controls -->   
+							<a class="left carousel-control" href="#myslide" data-slide="prev">     
+								<span class="glyphicon glyphicon-chevron-left"></span>     
+								</a>   
+							<a class="right carousel-control" href="#myslide" data-slide="next">     
+								<span class="glyphicon glyphicon-chevron-right"></span> 
+							</a>
+						</div>
+					</div>
+					<div class="panel-footer">		
+						<h3>More...</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	
+</body>
+</html>
