@@ -1,0 +1,2220 @@
+[2025-08-07 13:51:37,571] ERROR django.request log_response:253 - Internal Server Error: /api/exams/5/detail/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: 'bool' object is not callable
+[2025-08-07 13:51:39,939] ERROR django.request log_response:253 - Internal Server Error: /api/exams/1/detail/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: 'bool' object is not callable
+[2025-08-07 13:52:02,182] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:02,203] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:02,454] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:03,475] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:03,539] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:03,584] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:10,020] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:10,051] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:10,074] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:11,187] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:11,206] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:11,256] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 13:52:18,725] ERROR django.request log_response:253 - Internal Server Error: /api/users/3/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: file_uploads
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\mixins.py", line 95, in perform_destroy
+    instance.delete()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\models.py", line 86, in delete
+    super().delete(*args, **kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\base.py", line 1281, in delete
+    return collector.delete()
+           ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\deletion.py", line 467, in delete
+    count = qs._raw_delete(using=self.using)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\query.py", line 1221, in _raw_delete
+    return query.get_compiler(using).execute_sql(ROW_COUNT)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: file_uploads
+[2025-08-07 14:17:49,376] ERROR django.request log_response:253 - Internal Server Error: /api/users/3/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:18:24,213] ERROR django.request log_response:253 - Internal Server Error: /manifest.json
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:18:31,225] ERROR django.request log_response:253 - Internal Server Error: /api/users/3/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:19:06,084] ERROR django.request log_response:253 - Internal Server Error: /api/users/3/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:32:08,721] ERROR django.request log_response:253 - Internal Server Error: /api/users/3/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:32:20,510] ERROR django.request log_response:253 - Internal Server Error: /api/users/profile/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:32:20,856] ERROR django.request log_response:253 - Internal Server Error: /manifest.json
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:32:22,571] ERROR django.request log_response:253 - Internal Server Error: /api/users/profile/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:32:28,779] ERROR django.request log_response:253 - Internal Server Error: /api/auth/login/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\middleware.py", line 36, in process_request
+    logger.debug(f"Request Headers: {json.dumps(headers, indent=2)}")
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type LimitedStream is not JSON serializable
+[2025-08-07 14:35:13,776] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:35:13,913] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:35:13,929] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:35:22,714] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:35:23,275] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:35:23,362] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 14:36:32,616] ERROR django.request log_response:253 - Internal Server Error: /api/users/8/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: file_uploads
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\mixins.py", line 95, in perform_destroy
+    instance.delete()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\backend\api\models.py", line 86, in delete
+    super().delete(*args, **kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\base.py", line 1281, in delete
+    return collector.delete()
+           ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\deletion.py", line 467, in delete
+    count = qs._raw_delete(using=self.using)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\query.py", line 1221, in _raw_delete
+    return query.get_compiler(using).execute_sql(ROW_COUNT)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: file_uploads
+[2025-08-07 15:07:12,362] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:07:17,066] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:07:30,906] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:07:36,241] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:12,047] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:12,048] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:12,243] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:21,454] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:21,508] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:14:22,013] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:18:47,846] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:18:48,979] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:19:19,751] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:20:27,904] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:20:33,235] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 15:20:52,478] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:25:46,765] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:25:46,786] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:25:46,791] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:33,837] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:33,847] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:34,221] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:43,510] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:43,594] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-07 17:35:44,071] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:15,849] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:15,862] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:15,875] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:17,155] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:17,305] ERROR django.request log_response:253 - Internal Server Error: /api/admin/recent_activity/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:17,337] ERROR django.request log_response:253 - Internal Server Error: /api/admin/stats/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:43,536] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:44,727] ERROR django.request log_response:253 - Internal Server Error: /api/admin/analytics/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:49,643] ERROR django.request log_response:253 - Internal Server Error: /api/admin/notifications/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:08:50,929] ERROR django.request log_response:253 - Internal Server Error: /api/admin/notifications/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:09:01,303] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:09:02,511] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
+[2025-08-08 01:09:15,188] ERROR django.request log_response:253 - Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 409, in initial
+    self.format_kwarg = self.get_format_suffix(**kwargs)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 259, in get_format_suffix
+    if self.settings.FORMAT_SUFFIX_KWARG:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'FORMAT_SUFFIX_KWARG'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\2129705\Python_Codes\Cursor\EduPortal\.venv\Lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'EXCEPTION_HANDLER'
