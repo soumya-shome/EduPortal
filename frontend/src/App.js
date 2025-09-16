@@ -1,14 +1,18 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './contexts/AuthContext';
-import Login from './components/auth/Login';
-import Register from './components/auth/Register';
 import AdminDashboard from './components/admin/AdminDashboard';
 import TeacherDashboard from './components/teacher/TeacherDashboard';
 import StudentDashboard from './components/student/StudentDashboard';
 import ProtectedRoute from './components/common/ProtectedRoute';
 import LoadingSpinner from './components/common/LoadingSpinner';
 import ApiTest from './components/common/ApiTest';
+import PublicLayout from './components/layouts/PublicLayout';
+import LandingPage from './components/pages/LandingPage';
+import CoursesPage from './components/pages/CoursesPage';
+import CourseDetailPage from './components/pages/CourseDetailPage';
+import InstitutionsPage from './components/pages/InstitutionsPage';
+import AboutPage from './components/pages/AboutPage';
 
 function App() {
   const { user, loading } = useAuth();
@@ -20,14 +24,39 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Routes>
-        {/* Public routes */}
-        <Route path="/login" element={!user ? <Login /> : <Navigate to="/" />} />
-        <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} />
+        {/* Public routes with layout */}
+        <Route path="/" element={
+          <PublicLayout>
+            <LandingPage />
+          </PublicLayout>
+        } />
+        <Route path="/courses" element={
+          <PublicLayout>
+            <CoursesPage />
+          </PublicLayout>
+        } />
+        <Route path="/courses/:id" element={
+          <PublicLayout>
+            <CourseDetailPage />
+          </PublicLayout>
+        } />
+        <Route path="/institutions" element={
+          <PublicLayout>
+            <InstitutionsPage />
+          </PublicLayout>
+        } />
+        <Route path="/about" element={
+          <PublicLayout>
+            <AboutPage />
+          </PublicLayout>
+        } />
+        
+        {/* Test route */}
         <Route path="/test" element={<ApiTest />} />
         
-        {/* Protected routes */}
+        {/* Protected dashboard routes */}
         <Route
-          path="/"
+          path="/dashboard"
           element={
             <ProtectedRoute>
               {user?.role === 'admin' && <AdminDashboard />}

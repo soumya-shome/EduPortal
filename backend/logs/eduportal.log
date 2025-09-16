@@ -361,3 +361,21 @@
 [2025-08-08 01:10:05,888] INFO django.server log_message:213 - "GET /api/users/profile/ HTTP/1.1" 200 349
 [2025-08-08 01:10:05,973] WARNING django.server log_message:213 - "GET /api/study-materials/teacher-materials/ HTTP/1.1" 404 23
 [2025-08-08 01:10:05,979] WARNING django.server log_message:213 - "GET /api/courses/teacher-courses/ HTTP/1.1" 404 23
+[2025-09-02 21:33:33,245] INFO django.utils.autoreload run_with_reloader:667 - Watching for file changes with StatReloader
+[2025-09-02 21:33:49,308] WARNING django.server log_message:212 - "GET / HTTP/1.1" 404 2292
+[2025-09-02 21:33:49,533] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-02 21:36:15,438] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-02 21:36:15,494] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-02 21:36:15,757] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-02 21:36:15,765] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-02 21:36:15,788] WARNING django.server log_message:212 - "GET /manifest.json HTTP/1.1" 404 2349
+[2025-09-02 23:40:19,390] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-02 23:40:19,694] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-02 23:40:19,702] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-02 23:40:19,744] WARNING django.server log_message:212 - "GET /manifest.json HTTP/1.1" 404 2349
+[2025-09-03 11:26:23,522] INFO django.utils.autoreload run_with_reloader:667 - Watching for file changes with StatReloader
+[2025-09-03 11:27:14,751] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-03 11:27:14,785] WARNING django.server log_message:212 - "GET /favicon.ico HTTP/1.1" 404 2343
+[2025-09-03 11:27:14,856] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-03 11:27:14,864] WARNING django.server log_message:212 - "GET /api/users/profile/ HTTP/1.1" 403 58
+[2025-09-03 11:27:15,090] WARNING django.server log_message:212 - "GET /manifest.json HTTP/1.1" 404 2349
