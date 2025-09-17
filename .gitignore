@@ -1,3 +1,11 @@
-*\venv
-frontend\node_modules/
-frontend/node_modules/**
+# Ignore all virtual environments
+venv/
+*/venv/
+
+# Ignore node_modules in frontend and any subfolders
+frontend/node_modules/
+**/node_modules/
+
+# Ignore all __pycache__ folders everywhere
+__pycache__/
+**/__pycache__/
